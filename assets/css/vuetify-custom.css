@@ -1,0 +1,20 @@
+.navigation-drawer--permanent.navigation-drawer--open:not(.navigation-drawer--right):not(.navigation-drawer--clipped):not(.navigation-drawer--floating)~.toolbar,
+.navigation-drawer--permanent.navigation-drawer--open:not(.navigation-drawer--right)~.footer:not(.footer--fixed):not(.footer--absolute),
+.navigation-drawer--permanent.navigation-drawer--open:not(.navigation-drawer--right)~section,
+.navigation-drawer--persistent:not(.navigation-drawer--is-mobile).navigation-drawer--open:not(.navigation-drawer--right):not(.navigation-drawer--clipped):not(.navigation-drawer--floating)~.toolbar,
+.navigation-drawer--persistent:not(.navigation-drawer--is-mobile).navigation-drawer--open:not(.navigation-drawer--right)~.footer:not(.footer--fixed):not(.footer--absolute),
+.navigation-drawer--persistent:not(.navigation-drawer--is-mobile).navigation-drawer--open:not(.navigation-drawer--right)~section {
+  padding-left: 300px; }
+
+.navigation-drawer--mini-variant:not(.navigation-drawer--close)~.footer:not(.footer--fixed):not(.footer--absolute),
+.navigation-drawer--mini-variant:not(.navigation-drawer--close)~section {
+  padding-left: 80px !important; }
+
+.toolbar--fixed+section {
+  padding-top: 64px; }
+
+section {
+  transition: padding .3s cubic-bezier(.25,.8,.25,1); }
+
+section {
+  will-change: padding-left; }

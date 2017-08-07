@@ -1,0 +1,15 @@
+/** CSS Styles */
+
+/* Available variables https://github.com/vuetifyjs/vuetify/blob/master/src/stylus/settings/_variables.styl */
+
+/*@import '../../node_modules/vuetify/dist/vuetify.min.css'*/
+@import url('../../node_modules/vuetify/dist/vuetify.min.css');
+@import url('./theme-black.css');
+@import url('./vuetify-custom.css');
+
+
+.img-responsive {
+  height: auto;
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%; }

@@ -1,0 +1,27 @@
+{
+  "/": {
+    "title": "BigFaster | Landing Page",
+    "description": "Directorio Paname&ntilde;o de publicaciones de Autos, Inmuebles, Productos y Servicios",
+    "keywords": "Panama, autos, inmuebles, productos, servicios, mall, gratis, compras, ventas, alquiler, tienda, ofertas"
+  },
+  "/welcome": {
+    "title": "Vue.js 2 Material Component Framework",
+    "description": "My Vuetify.js Project",
+    "keywords": "vue 2.0, vuetify"
+  },
+  "/inspire": {
+    "title": "Create something amazing",
+    "description": "",
+    "keywords": ""
+  },
+  "/shopping": {
+    "title": "Ir de compras",
+    "description": "Ir de compras",
+    "keywords": "compras, BigFaster, Panama"
+  },
+  "/profile": {
+    "title": "Profile",
+    "description": "Profile",
+    "keywords": "compras, BigFaster, Panama"
+  }
+}
